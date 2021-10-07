@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판</title>
+
+    <style>
+        #sex {
+        margin: 20px;
+        padding: 20px;
+        border: 20px solid black;
+        width: 500px;}
+    </style>
+</head>
+<body>
+    <h1>게시판</h1>
+    <div>ID<input type="text" id="name"></div>
+    <div>PW<input type="password" id="password"></div>
+    <div>제목<input type="text" id="title_name"></div>
+    <div><TEXTAREA id="text_content" NAME = "content"  ROWS = "5"  COLS = "25"></TEXTAREA></div>
+    
+    <div>
+        <button id="write" onclick="button_write();">작성</button>
+        <button id="modify" onclick="button_modify();">수정</button>
+        <button id="button" onclick="button_delete();">삭제</button>
+    </div>
+
+    <div id="sex">
+        <span id="NY" style='color:red'>내용을 입력하세요</span>
+    </div>
+
+    <script>
+        let gotelement = getElementById("text_content")
+
+        function button_write(){
+            var x = document.getElementById("text_content").value;
+            NY.replace("내용을 입력하세요", gotelement);
+        }
+ //글작성+글목록+관리자+회원가입+로그인
+    </script>
+    
+</body>
+</html>
