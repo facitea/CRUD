@@ -89,3 +89,5 @@ npm은 당연히 설치되어있는데 왜그러는지 몰라 한참을 찾아�
 1npm cache clean --force #npm 캐시 삭제
 2npm install #package.json 의존하는 모듈 설치
 만약 npm install을 시행해도, 프로젝트 실행이 안된다면, npm run serve 중 필요한 라이브러리를 설치하라고 뜰테니 해당 라이브러리를 설치하고 시행하면 잘 된다.
+
+https://velog.io/@zofqofhtltm8015/Axios-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%84%9C%EB%B2%84-%ED%86%B5%EC%8B%A0-%ED%95%B4%EB%B3%B4%EA%B8%B0
