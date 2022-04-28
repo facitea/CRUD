@@ -69,3 +69,23 @@ app.get('/', (req, res) => { //express 앱(app)을 넣고, root directory에 오
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 }) //포트 5000번에서 이 앱을 실행한다.
+
+
+
+npm은 당연히 설치되어있는데 왜그러는지 몰라 한참을 찾아보다가 npm 캐시를 지워주면 된다는 말을 듣고 캐시를 지우고 다시 package.json에 정의된 모듈을 설치하였더니 잘 된다!
+
+1npm cache clean --force #npm 캐시 삭제
+2npm install #package.json 의존하는 모듈 설치
+만약 npm install을 시행해도, 프로젝트 실행이 안된다면, npm run serve 중 필요한 라이브러리를 설치하라고 뜰테니 해당 라이브러리를 설치하고 시행하면 잘 된다.
+
+npm은 당연히 설치되어있는데 왜그러는지 몰라 한참을 찾아보다가 npm 캐시를 지워주면 된다는 말을 듣고 캐시를 지우고 다시 package.json에 정의된 모듈을 설치하였더니 잘 된다!
+
+1npm cache clean --force #npm 캐시 삭제
+2npm install #package.json 의존하는 모듈 설치
+만약 npm install을 시행해도, 프로젝트 실행이 안된다면, npm run serve 중 필요한 라이브러리를 설치하라고 뜰테니 해당 라이브러리를 설치하고 시행하면 잘 된다.
+
+npm은 당연히 설치되어있는데 왜그러는지 몰라 한참을 찾아보다가 npm 캐시를 지워주면 된다는 말을 듣고 캐시를 지우고 다시 package.json에 정의된 모듈을 설치하였더니 잘 된다!
+
+1npm cache clean --force #npm 캐시 삭제
+2npm install #package.json 의존하는 모듈 설치
+만약 npm install을 시행해도, 프로젝트 실행이 안된다면, npm run serve 중 필요한 라이브러리를 설치하라고 뜰테니 해당 라이브러리를 설치하고 시행하면 잘 된다.
