@@ -157,3 +157,7 @@ export default {
 
 fake 서버 통해 통신하면서 느낀 점
 vue에서는 methods에 함수를 정의해야 사용가능하다. 그냥 자바스크립트 처럼 쓰는게 아니다.
+
+
+https://sedangdang.tistory.com/147
+깃 폴더 바꾸고 싶을때 참고 숨김 git폴더를 옮기자.
