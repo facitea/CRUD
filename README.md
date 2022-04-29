@@ -95,3 +95,65 @@ https://velog.io/@zofqofhtltm8015/Axios-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%84%9C%EB
 
 axios 쓰는 법
 https://bongra.tistory.com/122
+
+
+
+https://reqres.in/ 이용해서 로그인 구현함.
+
+<template>
+  <div class="home">
+    <img alt="Vue logo" src="../assets/logo.png">
+    <HelloWorld msg="개발중인 Social Media입니다"/>
+    <div>
+        <input type="email" placeholder="email을 입력해주세용" id="email" value="" >
+        </div>
+        <div>
+            <input type="password" placeholder="비밀번호를 입력해주세용" id="pw" value="">
+        </div>
+        <button v-on:click="onLoggin()">hey</button>
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+import HelloWorld from '@/components/HelloWorld.vue'
+import axios from 'axios';
+
+export default {
+  name: 'HomeView',
+  components: {
+    HelloWorld
+  },
+  methods: {
+    onLoggin(){
+            const email = document.getElementById("email");
+            const password = document.getElementById('pw')
+            axios({
+                method:"POST",
+                url: 'https://reqres.in/api/login',
+                data:{
+                    "email": email.value,
+                    "password": password.value
+                }
+            }).then((res)=>{
+                console.log(res);
+            }).catch(error=>{
+                console.log(error);
+                throw new Error(error);
+            });
+  }
+}
+
+
+}
+</script>
+
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+
+아이디 비번임
+
+fake 서버 통해 통신하면서 느낀 점
+vue에서는 methods에 함수를 정의해야 사용가능하다. 그냥 자바스크립트 처럼 쓰는게 아니다.
