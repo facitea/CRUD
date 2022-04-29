@@ -161,3 +161,5 @@ vue에서는 methods에 함수를 정의해야 사용가능하다. 그냥 자바
 
 https://sedangdang.tistory.com/147
 깃 폴더 바꾸고 싶을때 참고 숨김 git폴더를 옮기자.
+
+git commit -m "~~~" 해줘야 오류가 안뜬다
