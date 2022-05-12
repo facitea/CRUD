@@ -24,9 +24,9 @@
 
     <div class="sign-up">
     <p>회원가입</p>
-    <input type="text" v-model="email" placeholder="email"><br>
-<input type="password" v-model="password" placeholder="password"><br>
-<button v-on:click="signUp">가입하기</button>
+    <input type="text" placeholder="email"><br>
+    <input type="password" placeholder="password"><br>
+    <button>가입하기</button>
   </div>
 
         <button @click="handle_toggle" type="button">
@@ -39,16 +39,13 @@
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
 import axios from 'axios';
-import firebase from 'firebase'
 
 export default {
   name: 'HomeView',
   data: function() {
     return {
-      is_show: false,
-      email:'',
-      password:''
-    }
+      is_show: false
+    };
   },
   components: {
     HelloWorld
@@ -57,26 +54,7 @@ export default {
     handle_toggle: function(){ 
       this.is_show = !this.is_show; // #2, #3
     }, //#1: template에서 v-if 또는 v-show의 조건문에 넣을 변수를 data에 추가한다. vue에서는 data를 함수로 정의하고 실제 데이터를 return한다. #2: method 내에서 같은 컴포넌트 내의 데이터에 접근하려면 this를 사용하면 된다. this는 현재 method 자신이 속한 컴포넌트를 가리킨다. (this와 관련하여 함수를 정의할 때 주의할 것.) #3: true면 false로, false면 true로 바꾸기 위해 !로 부정형을 만든다.
-    signUp() {
-        firebase.auth().createUserWithEmailAndPassword(this.email, this.password).then(
-          function(user) {// eslint-disable-line no-unused-vars
-            alert('회원가입 완료!')
-          },
-          function(err) {
-            alert('에러 : ' + err.message)
-          }
-        );
-      },
-      login() {
-        firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(
-          function(user) {// eslint-disable-line no-unused-vars
-            alert('로그인 완료!')
-          },
-          function(err) {
-            alert('에러 : ' + err.message)
-          }
-        );
-      },
+
     //차후 확인 버튼은 v-if를 사라지게 하는 것이 아닌 회원가입으로 넘어가야한다.
     onLoggin(){
             const email = document.getElementById("email");
@@ -93,7 +71,7 @@ export default {
             }).catch(error=>{
                 console.log(error);
                 throw new Error(error);
-            })
+            });
   }
 }
 

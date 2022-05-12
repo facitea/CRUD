@@ -17,8 +17,9 @@
   <nav>
     <ul class="nav-container">
       <li class="nav-item"><router-link to="/">Hawktalk</router-link></li>
-      <li class="nav-item"><router-link to="/databinding">Data Binding</router-link></li>
       <li class="nav-item"><router-link to="/feedboard">Feed</router-link></li>
+      <li class="nav-item"><a href="#">Chat</a></li>
+      <li class="nav-item"><router-link to="/mydat">Me</router-link></li>
     </ul>
   </nav>
   <div><router-view /></div>

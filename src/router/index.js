@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import DataBinding from '../views/DataBinding.vue'
+import MyDat from '../views/MyDat.vue'
 import FeedBoard from '../views/FeedBoard.vue'
 
 const routes = [
@@ -18,9 +18,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
-    path: '/databinding',
-    name: 'DataBinding',
-    component: DataBinding
+    path: '/mydat',
+    name: 'MyDat',
+    component: MyDat
   },
   {
     path: '/feedboard',
