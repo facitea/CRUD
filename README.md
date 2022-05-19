@@ -183,3 +183,5 @@ http://www.mins01.com/ 이런 사이트 참고
 면접 질문 정리를 통해 서당개식 공부 완성
 
 https://okky.kr/article/842696 네카라 입사방법
+
+https://lts0606.tistory.com/515 공부 
