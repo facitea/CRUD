@@ -190,3 +190,7 @@ https://lts0606.tistory.com/515 공부
 html을 통해 무한스크롤을 만드는 방법을 찾아보았다.
 innerhtml을 생성하는 식을 만드는 것을 보았는데,
 생각해보니 vue에서는 v-html을 쓴다. 이걸 활용하자.
+
+console.log(`${num1} + ${num2} = ${num1+num2} 입니다.`);
+
+백틱과 $를 사용하면 더 명확해진다.
