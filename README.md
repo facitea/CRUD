@@ -185,3 +185,8 @@ http://www.mins01.com/ 이런 사이트 참고
 https://okky.kr/article/842696 네카라 입사방법
 
 https://lts0606.tistory.com/515 공부 
+
+# 22/5/20
+html을 통해 무한스크롤을 만드는 방법을 찾아보았다.
+innerhtml을 생성하는 식을 만드는 것을 보았는데,
+생각해보니 vue에서는 v-html을 쓴다. 이걸 활용하자.
