@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Scroll</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container > h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 43px;
+    margin-top: 50px;
+}
+.text{
+    width: 500px;
+    height: 200px;
+    background: crimson;
+    padding: 20px;
+    margin: 40px 0;
+    border-radius: 10px;
+}
+.text h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 760;
+    color: white;
+}
+.text p{
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: center;
+    color: rgb(245, 239, 239);
+    font-size: 18px;
+}
+/* The Loading Animation */
+.loading{
+    width: 150px;
+    height: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 10px;
+}
+.first{
+    animation: slide 2s  ease-in-out infinite ;
+    animation-delay: .1s;
+}
+.second{
+    animation: slide 2s ease-in-out infinite;
+    animation-delay: .5s;
+}
+.third{
+    animation: slide 2s ease-in-out infinite;
+    animation-delay: 1s;
+}
+@keyframes slide{
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+    </style>
+    <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Infinite Scroll</h1>
+<!--    The First Div      -->
+        <div class="text">
+            <h1>1번</h1>
+            <p>1번 내용</p>
+        </div>
+<!--    The Second Div      -->
+        <div class="text">
+            <h1>2번</h1>
+            <p>2번 내용</p>
+        </div>
+<!--    The Third Div      -->
+        <div class="text">
+            <h1>3번</h1>
+            <p>3번 내용</p>
+        </div>
+    </div>
+<!--  The Loading Animation.    -->
+    <div class="loading">
+        <div class="ball first"></div>
+        <div class="ball second"></div>
+        <div class="ball third"></div>
+    </div>
+
+<script>
+    const container = document.querySelector('.container');
+// The Scroll Event.
+window.addEventListener('scroll',()=>{
+	const {scrollHeight,scrollTop,clientHeight} = document.documentElement;
+	if(scrollTop + clientHeight > scrollHeight - 5){
+		setTimeout(createPost,2000);
+
+	}
+});
+// The createPost function creates The HTML for the blog post.
+// It append it to the container.
+function createPost(){
+	const post = document.createElement('div');
+	post.className = 'text';
+	post.innerHTML = `<h1>Lorem ipsum dolor sit amet</h1>
+	<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque eos, atque sed saepe
+	   tempore, sequi qui excepturi voluptate ut perspiciatis culpa sit harum, corrupti ullam 
+	   voluptatibus obcaecati sint dignissimos quas.</p>`;
+//   Appending the post to the container.
+	container.appendChild(post);
+}
+</script>
+</body>
+</html>
