@@ -238,3 +238,4 @@ https://blog.naver.com/kimdongy1000/221739900520
 - 포털로 가고 싶으나 대기업이 많으니 쇼핑몰로 시선을 
 
 https://www.wappalyzer.com/lookup/naver.com
+https://builtwith.com/naver.com
