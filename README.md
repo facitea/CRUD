@@ -228,6 +228,7 @@ https://blog.naver.com/kimdongy1000/221739900520
 - 22/6~23/12 19개월 동안
 - vue 6개월 -> Next.js 6개월 -> Typescript 6개월 진행
 - 즉, 22년 12월까지 Vue 공부와 type 공부를 하면 된다.
+- 프로젝트에는 안 써도 Jquery도 
 
 # 22/5/24
 - 포트폴리오에 어떤 내용을 쓸 지 미리 큰 틀을 그려놓고 내가 그걸 채워나가는 것도 재미있겠다!
@@ -238,4 +239,4 @@ https://blog.naver.com/kimdongy1000/221739900520
 - 포털로 가고 싶으나 대기업이 많으니 쇼핑몰로 시선을 
 
 https://www.wappalyzer.com/lookup/naver.com
-https://builtwith.com/naver.com
+https://builtwith.com/naver.com프로
