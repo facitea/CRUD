@@ -251,3 +251,5 @@ https://www.gabia.com/member/member_register.php 호크톡.net 제일
 ㄴ 미들웨어란 무엇인가
 
 - 파이어베이스만 제대로 연결되면 게시판도 별 것 없다..
+
+https://marshmello.tistory.com/64 - vue express sql
