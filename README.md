@@ -261,3 +261,8 @@ https://marshmello.tistory.com/64 - vue express sql
 - 제일 먼저 할 것! 무한스크롤이 아니라 게시글이 표현되도록 하는 것!!!!!!!!!!!!!!
 
 파이어베이스 자바스크립트 구글에 검색해보기
+
+https://console.firebase.google.com/u/1/project/hawktalk-b0a71/settings/general/web:Njk4MzMyNjktMmE2ZS00OTA5LWI5OWQtNDE3MWIzZTIxZTA2
+https://firebase.google.com/docs/database/web/read-and-write?hl=ko&authuser=1
+
+이 두사이트 firebase 근본 페이지를 기반으로 만들자
