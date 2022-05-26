@@ -266,3 +266,5 @@ https://console.firebase.google.com/u/1/project/hawktalk-b0a71/settings/general/
 https://firebase.google.com/docs/database/web/read-and-write?hl=ko&authuser=1
 
 이 두사이트 firebase 근본 페이지를 기반으로 만들자
+
+★★★ 비전공자들을 위한 직장인들을 위한 인터넷강의 플랫폼 ★★★
