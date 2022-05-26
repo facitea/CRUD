@@ -253,3 +253,6 @@ https://www.gabia.com/member/member_register.php 호크톡.net 제일
 - 파이어베이스만 제대로 연결되면 게시판도 별 것 없다..
 
 https://marshmello.tistory.com/64 - vue express sql
+
+그러나!!
+파이어베이스 먼저 하고 아쉬우면 서버 연동하자
