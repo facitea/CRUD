@@ -255,4 +255,6 @@ https://www.gabia.com/member/member_register.php 호크톡.net 제일
 https://marshmello.tistory.com/64 - vue express sql
 
 그러나!!
-파이어베이스 먼저 하고 아쉬우면 서버 연동하자
+★파이어베이스 먼저 하고 아쉬우면 서버 연동하자★
+
+디자인 신경 쓰지 말고 일단 게시글이 제대로 표현되도록 하기.
