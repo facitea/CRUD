@@ -268,3 +268,4 @@ https://firebase.google.com/docs/database/web/read-and-write?hl=ko&authuser=1
 이 두사이트 firebase 근본 페이지를 기반으로 만들자
 
 ★★★ 비전공자들을 위한 직장인들을 위한 인터넷강의 플랫폼 ★★★
+ㄴ 강의도 하고 수강후기는 게시판 형식으로 만들면 굿?!
