@@ -242,3 +242,12 @@ https://www.wappalyzer.com/lookup/naver.com
 https://builtwith.com/naver.com프로
 
 https://www.gabia.com/member/member_register.php 호크톡.net 제일 
+
+# 22/5/26
+- 클라이언트, 서버, DB의 관계
+- 나는 무엇을 모르는가
+ㄴ Vue와 서버는 어떻게 연결하는가
+ㄴ 서버 언어는 어떻게 구성되는가
+ㄴ 미들웨어란 무엇인가
+
+- 파이어베이스만 제대로 연결되면 게시판도 별 것 없다..
