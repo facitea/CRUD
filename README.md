@@ -239,7 +239,7 @@ https://blog.naver.com/kimdongy1000/221739900520
 - 포털로 가고 싶으나 대기업이 많으니 쇼핑몰로 시선을 
 
 https://www.wappalyzer.com/lookup/naver.com
-https://builtwith.com/naver.com프로
+https://builtwith.com/naver.com
 
 https://www.gabia.com/member/member_register.php 호크톡.net 제일 
 
@@ -297,3 +297,14 @@ FBI코딩
 바둑이코딩
 코딩마약(코마)
 대박코딩
+
+# 22/5/27
+- 나를 더 혹독하게 다루기로 했다
+- 비전공자들을 위한 직장인들을 위한 인터넷강의 플랫폼을 만들자
+- 인프런 클론 코딩을 하고 기능을 구현하자
+
+- 전체 공통 - 반응형/vue.js/슬라이더 많이필요/
+- 회사입장 글쓰는 공간
+- 구직자 글쓰는 공간
+- 로드맵
+- 강의페이지 / 강의 
