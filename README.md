@@ -313,3 +313,5 @@ FBI코딩
 - 인프런 클론 코딩 및 서비스 제작 시작
 
 - router에서 보여주는 component 파일은 views 폴더에 넣는다. 그 외에는 components 폴더다.Permalink
+
+- vue를 통해 image slider를 만드는 일은 쉽지 않다.. 벌써부터 난관이다.
