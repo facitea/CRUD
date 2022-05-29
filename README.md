@@ -315,3 +315,9 @@ FBI코딩
 - router에서 보여주는 component 파일은 views 폴더에 넣는다. 그 외에는 components 폴더다.Permalink
 
 - vue를 통해 image slider를 만드는 일은 쉽지 않다.. 벌써부터 난관이다.
+
+- 프로그래밍 강의 뿐만 아니라 일반 강의도 확장하는 방식으로
+- 일정 수준 되면 한달 정액제 같이 산타토익 스타일로 가자
+
+# 22/5/30
+- <img alt="Vue logo" src="./assets/logo.png" /> 형식으로 하면 사진 불러올 수 있는 것 같은데? 집가서 해봐야겠다.
