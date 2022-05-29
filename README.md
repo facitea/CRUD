@@ -308,3 +308,8 @@ FBI코딩
 - 구직자 글쓰는 공간
 - 로드맵
 - 강의페이지 / 강의 
+
+# 22/5/29
+- 인프런 클론 코딩 및 서비스 제작 시작
+
+- router에서 보여주는 component 파일은 views 폴더에 넣는다. 그 외에는 components 폴더다.Permalink
