@@ -336,3 +336,7 @@ FBI코딩
 - 최재민한테 물어볼것. 서버를 어떻게 연결시키는지.
 - https://velog.io/@shelly/vue-node-%EB%B0%B0%ED%8F%AC-vue%EC%99%80-node-%EC%97%B0%EB%8F%99%ED%95%98%EA%B8%B0
 - Vue를 node에 배포해야한다!
+
+
+https://medium.com/hivelab-dev/vue-express-mysql-part1-98f68408d444 이거 보면 도움 많이 될 듯
+
