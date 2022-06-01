@@ -340,3 +340,10 @@ FBI코딩
 
 https://medium.com/hivelab-dev/vue-express-mysql-part1-98f68408d444 이거 보면 도움 많이 될 듯
 
+spring - 서버구축
+ㄴ자바 코드 안에 HTML이 다 들어간다
+ㄴCSS 고정값 헤더/바디 따로 만들어두면 컴포넌트화가 된다 include - 기본 html로 하는거임 옛날 방식ㅇㅇ 근데 많이 씀
+
+내가 고민인 것
+vue + node + 몽고db
+vue cli - npm run serve
