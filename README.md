@@ -347,3 +347,5 @@ spring - 서버구축
 내가 고민인 것
 vue + node + 몽고db
 vue cli - npm run serve
+
+- https://opentutorials.org/course/3370 생활코딩 
