@@ -349,3 +349,6 @@ vue + node + 몽고db
 vue cli - npm run serve
 
 - https://opentutorials.org/course/3370 생활코딩 
+
+# 22/6/2
+- https://mrw0119.tistory.com/137 vue node 심화 
