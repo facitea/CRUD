@@ -352,3 +352,7 @@ vue cli - npm run serve
 
 # 22/6/2
 - https://mrw0119.tistory.com/137 vue node 심화 
+
+# 22/6/8
+- 라매개발자 영상 참고하기
+- 느낀점 : vue로 로그인 + CRUD만 표현하자 + Node로 백엔드까지 구현하면 자기만족도 될듯
