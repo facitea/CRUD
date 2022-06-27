@@ -381,4 +381,5 @@ vue cli - npm run serve
 - sticky 스크롤하면 위치 고정
 
 - https://github.com/TylerPottsDev/SPA-portfolio-page
+- https://jsfiddle.net/alikong/8r3g0czn/
 - 햄버거 메뉴 도움되는 css
