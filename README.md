@@ -383,3 +383,5 @@ vue cli - npm run serve
 - https://github.com/TylerPottsDev/SPA-portfolio-page
 - https://jsfiddle.net/alikong/8r3g0czn/
 - 햄버거 메뉴 도움되는 css
+
+- CSS transition까지 배우면 재밌긴 할듯
