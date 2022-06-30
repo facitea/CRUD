@@ -391,5 +391,9 @@ vue cli - npm run serve
 - * Content Management Systems (aka CMS)* Node.js* Cross-Browser Testing* Cross-Platform Testing* Unit Testing* Cross-Device Testing* Accessibility / WAI-ARIA* Search Engine Optimization (aka SEO)* Interaction or User Interface Design* User Experience* Usability* E-commerce Systems* Portal Systems* Wireframing* CSS Layout / Grids* DOM Manipulation (e.g., jQuery)* Mobile Web Performance* Load Testing* Performance Testing* Progressive Enhancement / Graceful Degradation* Version Control (e.g., GIT)* MVC / MVVM / MV* * Functional Programming* Data Formats (e.g., JSON, XML)* Data APIs (e.g Restful API)* Web Font Embedding* Scalable Vector Graphics (aka SVG)* Regular Expressions* Content Strategy* Microdata / Microformats* Task Runners, Build Tools, Process Automation Tools* Responsive Web Design* Object-Oriented Programming* Application Architecture* Modules* Dependency Managers* Package Managers* JavaScript Animation* CSS Animation* Charts / Graphs* UI Widgets* Code Quality Testing* Code Coverage Testing* Code Complexity Analysis* Integration Testing* Command Line / CLI * Templating Strategies* Templating Engines* Single Page Applications* XHR Requests (aka AJAX)* Web/Browser Security* HTML Semantics* Browser Developer Tools
 출처: https://meanpain.tistory.com/119 [죠셉의 세상이야기:티스토리] 프론트 기본스킬
 
+- https://jsfiddle.net/alikong/8r3g0czn/
+- Z인덱스를 쓰지 않고 메뉴바를 최상단 위치하게 하는 방법은 없을까
+
 # 프론트엔드가 무엇을 할 줄 알아야하는가
 - 알아보고 정리하자. 그 중심으로 공부를 해서 실무 중심을 취업하자.
+- 
