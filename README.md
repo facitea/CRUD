@@ -385,3 +385,7 @@ vue cli - npm run serve
 - 햄버거 메뉴 도움되는 css
 
 - CSS transition까지 배우면 재밌긴 할듯
+
+# 22/6/30
+- transform: rotate(-45deg); 새로운 기술 습득. 기울인다.
+- 
