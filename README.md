@@ -400,3 +400,4 @@ vue cli - npm run serve
 # 22/7/1
 - '프론트엔드 실무 필수' 키워드로 구글에 검색해보았다.
 - 인프런 강의를 찾아서 장바구니에 넣었다
+- https://realmojo.tistory.com/300
