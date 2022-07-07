@@ -449,3 +449,6 @@ vue cli - npm run serve
 
 # 22/7/8 취업이 쉬운 리액트로 가야할 수도 있다.
 - https://react.vlpt.us/basic/07-useState.html 출근길 좋은 리액트 자료를 발견했다. 가볍게 읽기 쉽다.
+
+- codesandbox를 통해 리액트 공부가 가능하다. 이런식으로라도 공부하자.
+- 나중에 왜 리액트 했냐고 하면 개발환경이 그래서라고 하면 될듯 ㅎㅎ
