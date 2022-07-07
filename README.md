@@ -446,3 +446,6 @@ vue cli - npm run serve
 - Typescript
 ========================
 - SSR - Next.js, Nuxt.js
+
+# 22/7/8 취업이 쉬운 리액트로 가야할 수도 있다.
+- https://react.vlpt.us/basic/07-useState.html 출근길 좋은 리액트 자료를 발견했다. 가볍게 읽기 쉽다.
