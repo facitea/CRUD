@@ -405,3 +405,44 @@ vue cli - npm run serve
 # 22/7/7
 - 반응형을 만만하게 보아선 안된다.
 - 그냥 70%폭으로 설정하면 소형기기에서도 70%로 보인다. 미디어쿼리 또는 다른 방법의 대안이 필요하다.
+
+# 단권화 필수 항목
+- https://ordinary-code.tistory.com/131
+
+- 인터넷이란
+- HTTP란
+- 브라우저, 동작방식
+- DNS, 동작방식
+- 도메인이란
+- 호스팅이란
+
+- 시맨틱 HTML 작성
+- 형태와 유효성 검사
+- SEO
+- floats, positioning, display, box model, grid, flex
+- 반응형 미디어쿼리
+
+- DOM 조작
+- Fetch API, Ajax
+- ES6
+- 호이스팅이란
+- Event Bubbling
+- Scope
+- prototype
+- shadow DOM
+- strict
+
+- 버전관리 깃헙
+- 깃
+- 패키지 관리자 yarn, npm
+
+- npm scripts
+- webpack
+
+- React-redux, Vue-vuex
+- styled components
+- css modules
+
+- Typescript
+========================
+- SSR - Next.js, Nuxt.js
