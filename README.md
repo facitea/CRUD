@@ -465,3 +465,8 @@ vue cli - npm run serve
 # 22/7/14
 - 언제나 기본, 근본 위주로 공부하자
 - http://tcpschool.com/html-tag-attrs/input-multiple
+
+# 22/7/19
+- 경아 유튜브 출처 정보
+- CSS의 모듈화, class/컴포넌트화 재사용성 증대 협업에 도움
+- 실무에서
