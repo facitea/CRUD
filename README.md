@@ -470,3 +470,6 @@ vue cli - npm run serve
 - 경아 유튜브 출처 정보
 - CSS의 모듈화, class/컴포넌트화 재사용성 증대 협업에 도움
 - 실무에서
+
+# 22/7/25
+- https://okky.kr/article/836222 
