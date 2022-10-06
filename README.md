@@ -473,3 +473,34 @@ vue cli - npm run serve
 
 # 22/7/25
 - https://okky.kr/article/836222 
+
+# 22/10/6
+
+단권화 필수항목2 
+- HTML
+시맨틱 태그
+
+CSS
+반응형
+정렬
+flex, grid
+
+CS지식
+호스팅. 도메인, DNS. HTTP
+npm, git
+
+fetch API
+스코프
+클로저
+이벤트루프
+오브젝트
+DOM
+비동기 프로그래밍
+함수형 프로그래밍
+객체지향 프로그래밍
+쿼리문
+
+
+프레임워크
+vue
+nuxt.js
